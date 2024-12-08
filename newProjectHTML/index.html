@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой блог</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <i><h1>Мой блог</h1></i>
+    </header>
+
+    <main>
+        <!-- Пост 1 -->
+        <article class="post">
+            <h2>Мой первый пост</h2>
+            <img src="./img/Lion.jpg" alt="Изображение поста 1">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Это мой первый пост в блоге. Здесь я буду делиться своими мыслями и интересными событиями!</p>
+        </article>
+
+        <!-- Пост 2 -->
+        <article class="post">
+            <h2>Как научиться программировать</h2>
+            <img src="./img/Lion.jpg" alt="Изображение поста 2">
+            <p>Для того, чтобы стать хорошим программистом, нужно практиковаться и изучать новые технологии.</p>
+        </article>
+
+        <!-- Форма комментариев -->
+        <section class="comments">
+            <h2>Оставьте комментарий</h2>
+            <form action="#" method="post">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="comment">Комментарий:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Мой блог</p>
+    </footer>
+</body>
+</html>
