@@ -1,0 +1,35 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(198, 172, 140);
+}
+
+.grid-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    width: 60%;
+    border-color: rgb(141, 52, 196);
+    padding: 20px;
+    box-shadow: 0 4px 8px red;
+    border-radius: 8px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: rgb(48, 58, 171);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px red;
+}
